@@ -16,3 +16,11 @@ if(is_dir($dir)){
 <?php
 echo getcwd();
 ?>
+
+
+<?php
+$dir1 = ".";
+echo"<pre>";
+print_r(scandir($dir1));
+
+?>
